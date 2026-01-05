@@ -1,0 +1,132 @@
+[09-Dec-2025 07:12:43 UTC] [email_debug] sendEmail() called to=your.email@domain.com subject="TEST EMAIL dari iimsgolftournament"
+[09-Dec-2025 07:12:43 UTC] [email_debug] mail() exception: Call to undefined function mail()
+[09-Dec-2025 07:15:46 UTC] [email_debug] sendEmail called to=your.email@domain.com subject="TEST EMAIL dari iimsgolftournament"
+[09-Dec-2025 07:15:46 UTC] [email_debug] mail() not available on this PHP installation.
+[09-Dec-2025 07:15:46 UTC] [email_debug] sendEmail: all methods failed for your.email@domain.com
+[09-Dec-2025 07:15:48 UTC] [email_debug] sendEmail called to=your.email@domain.com subject="TEST EMAIL dari iimsgolftournament"
+[09-Dec-2025 07:15:48 UTC] [email_debug] mail() not available on this PHP installation.
+[09-Dec-2025 07:15:48 UTC] [email_debug] sendEmail: all methods failed for your.email@domain.com
+[09-Dec-2025 07:15:52 UTC] [email_debug] sendEmail called to=your.email@domain.com subject="TEST EMAIL dari iimsgolftournament"
+[09-Dec-2025 07:15:52 UTC] [email_debug] mail() not available on this PHP installation.
+[09-Dec-2025 07:15:52 UTC] [email_debug] sendEmail: all methods failed for your.email@domain.com
+[09-Dec-2025 07:25:57 UTC] [email_debug] sendEmail() called to=you@yourdomain.com subject="PHPMailer TEST - iimsgolftournament"
+[09-Dec-2025 07:25:57 UTC] [email_debug] PHPMailer class not found. Install PHPMailer via Composer (composer require phpmailer/phpmailer) or upload library.
+[09-Dec-2025 07:47:54 UTC] [email_debug] Manual-include PHPMailer from /home/solusib1/public_html/client/iimsgolftournament.com/includes/../vendor/phpmailer/phpmailer/src
+[09-Dec-2025 07:47:54 UTC] [email_debug] sendEmail() called to=production.solusibisnisdigital@gmail.com subject="PHPMailer TEST - iimsgolftournament"
+[09-Dec-2025 07:47:55 UTC] [email_debug] PHPMailer exception when sending to production.solusibisnisdigital@gmail.com: SMTP Error: Could not connect to SMTP host. Failed to connect to server
+[09-Dec-2025 07:48:46 UTC] [email_debug] Manual-include PHPMailer from /home/solusib1/public_html/client/iimsgolftournament.com/includes/../vendor/phpmailer/phpmailer/src
+[09-Dec-2025 07:48:46 UTC] [email_debug] sendEmail() called to=epereper2@gmail.com subject="PHPMailer TEST - iimsgolftournament"
+[09-Dec-2025 07:48:47 UTC] [email_debug] PHPMailer exception when sending to epereper2@gmail.com: SMTP Error: Could not connect to SMTP host. Failed to connect to server
+[09-Dec-2025 07:49:15 UTC] [email_debug] Manual-include PHPMailer from /home/solusib1/public_html/client/iimsgolftournament.com/includes/../vendor/phpmailer/phpmailer/src
+[09-Dec-2025 07:49:15 UTC] [email_debug] sendEmail() called to=production.solusibisnisdigital@gmail.com subject="PHPMailer TEST - iimsgolftournament"
+[09-Dec-2025 07:49:16 UTC] [email_debug] PHPMailer exception when sending to production.solusibisnisdigital@gmail.com: SMTP Error: Could not connect to SMTP host. Failed to connect to server
+[09-Dec-2025 07:52:59 UTC] [email_debug] Manual-included PHPMailer from /home/solusib1/public_html/client/iimsgolftournament.com/includes/../vendor/phpmailer/phpmailer/src
+[09-Dec-2025 07:52:59 UTC] [email_debug] sendEmail called to=production.solusibisnisdigital@gmail.com subject="PHPMailer TEST - iimsgolftournament"
+[09-Dec-2025 07:52:59 UTC] [email_debug] Attempting SMTP connect: host=smtp.gmail.com port=587 secure=tls
+[09-Dec-2025 07:52:59 UTC] [phpmailer] level=2 msg=SERVER -> CLIENT: 220 smtp.gmail.com ESMTP 98e67ed59e1d1-34a49a16e7esm1444586a91.15 - gsmtp
+
+[09-Dec-2025 07:52:59 UTC] [phpmailer] level=1 msg=CLIENT -> SERVER: EHLO iimsgolftournament.com
+
+[09-Dec-2025 07:53:00 UTC] [phpmailer] level=2 msg=SERVER -> CLIENT: 250-smtp.gmail.com at your service, [103.16.199.30]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+[09-Dec-2025 07:53:00 UTC] [phpmailer] level=1 msg=CLIENT -> SERVER: STARTTLS
+
+[09-Dec-2025 07:53:00 UTC] [phpmailer] level=2 msg=SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+
+[09-Dec-2025 07:53:00 UTC] [phpmailer] level=1 msg=CLIENT -> SERVER: EHLO iimsgolftournament.com
+
+[09-Dec-2025 07:53:00 UTC] [phpmailer] level=2 msg=SERVER -> CLIENT: 250-smtp.gmail.com at your service, [103.16.199.30]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+[09-Dec-2025 07:53:00 UTC] [phpmailer] level=1 msg=CLIENT -> SERVER: AUTH LOGIN
+
+[09-Dec-2025 07:53:00 UTC] [phpmailer] level=2 msg=SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+[09-Dec-2025 07:53:00 UTC] [phpmailer] level=1 msg=CLIENT -> SERVER: [credentials hidden]
+[09-Dec-2025 07:53:00 UTC] [phpmailer] level=2 msg=SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+[09-Dec-2025 07:53:00 UTC] [phpmailer] level=1 msg=CLIENT -> SERVER: [credentials hidden]
+[09-Dec-2025 07:53:01 UTC] [phpmailer] level=2 msg=SERVER -> CLIENT: 235 2.7.0 Accepted
+
+[09-Dec-2025 07:53:01 UTC] [phpmailer] level=1 msg=CLIENT -> SERVER: MAIL FROM:<production.solusibisnisdigital@gmail.com>
+
+[09-Dec-2025 07:53:01 UTC] [phpmailer] level=2 msg=SERVER -> CLIENT: 250 2.1.0 OK 98e67ed59e1d1-34a49a16e7esm1444586a91.15 - gsmtp
+
+[09-Dec-2025 07:53:01 UTC] [phpmailer] level=1 msg=CLIENT -> SERVER: RCPT TO:<production.solusibisnisdigital@gmail.com>
+
+[09-Dec-2025 07:53:01 UTC] [phpmailer] level=2 msg=SERVER -> CLIENT: 250 2.1.5 OK 98e67ed59e1d1-34a49a16e7esm1444586a91.15 - gsmtp
+
+[09-Dec-2025 07:53:01 UTC] [phpmailer] level=1 msg=CLIENT -> SERVER: DATA
+
+[09-Dec-2025 07:53:01 UTC] [phpmailer] level=2 msg=SERVER -> CLIENT: 354 Go ahead 98e67ed59e1d1-34a49a16e7esm1444586a91.15 - gsmtp
+
+[09-Dec-2025 07:53:01 UTC] [phpmailer] level=1 msg=CLIENT -> SERVER: Date: Tue, 9 Dec 2025 07:52:59 +0000
+
+[09-Dec-2025 07:53:01 UTC] [phpmailer] level=1 msg=CLIENT -> SERVER: To: production.solusibisnisdigital@gmail.com
+
+[09-Dec-2025 07:53:01 UTC] [phpmailer] level=1 msg=CLIENT -> SERVER: From: IIMS Golf Tournament <production.solusibisnisdigital@gmail.com>
+
+[09-Dec-2025 07:53:01 UTC] [phpmailer] level=1 msg=CLIENT -> SERVER: Subject: PHPMailer TEST - iimsgolftournament
+
+[09-Dec-2025 07:53:01 UTC] [phpmailer] level=1 msg=CLIENT -> SERVER: Message-ID: <xQvrAiYl4C633xNquf0kWnmS69Wbr2ORT4mGBFKXMk@iimsgolftournament.com>
+
+[09-Dec-2025 07:53:01 UTC] [phpmailer] level=1 msg=CLIENT -> SERVER: X-Mailer: PHPMailer 7.0.1 (https://github.com/PHPMailer/PHPMailer)
+
+[09-Dec-2025 07:53:01 UTC] [phpmailer] level=1 msg=CLIENT -> SERVER: MIME-Version: 1.0
+
+[09-Dec-2025 07:53:01 UTC] [phpmailer] level=1 msg=CLIENT -> SERVER: Content-Type: multipart/alternative;
+
+[09-Dec-2025 07:53:01 UTC] [phpmailer] level=1 msg=CLIENT -> SERVER:  boundary="b1=_xQvrAiYl4C633xNquf0kWnmS69Wbr2ORT4mGBFKXMk"
+
+[09-Dec-2025 07:53:01 UTC] [phpmailer] level=1 msg=CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+[09-Dec-2025 07:53:01 UTC] [phpmailer] level=1 msg=CLIENT -> SERVER: 
+
+[09-Dec-2025 07:53:01 UTC] [phpmailer] level=1 msg=CLIENT -> SERVER: --b1=_xQvrAiYl4C633xNquf0kWnmS69Wbr2ORT4mGBFKXMk
+
+[09-Dec-2025 07:53:01 UTC] [phpmailer] level=1 msg=CLIENT -> SERVER: Content-Type: text/plain; charset=us-ascii
+
+[09-Dec-2025 07:53:01 UTC] [phpmailer] level=1 msg=CLIENT -> SERVER: 
+
+[09-Dec-2025 07:53:01 UTC] [phpmailer] level=1 msg=CLIENT -> SERVER: Test email via PHPMailer. Time: 2025-12-09 07:52:59
+
+[09-Dec-2025 07:53:01 UTC] [phpmailer] level=1 msg=CLIENT -> SERVER: 
+
+[09-Dec-2025 07:53:01 UTC] [phpmailer] level=1 msg=CLIENT -> SERVER: --b1=_xQvrAiYl4C633xNquf0kWnmS69Wbr2ORT4mGBFKXMk
+
+[09-Dec-2025 07:53:01 UTC] [phpmailer] level=1 msg=CLIENT -> SERVER: Content-Type: text/html; charset=us-ascii
+
+[09-Dec-2025 07:53:01 UTC] [phpmailer] level=1 msg=CLIENT -> SERVER: 
+
+[09-Dec-2025 07:53:01 UTC] [phpmailer] level=1 msg=CLIENT -> SERVER: <p>Test email via PHPMailer. Time: 2025-12-09 07:52:59</p>
+
+[09-Dec-2025 07:53:01 UTC] [phpmailer] level=1 msg=CLIENT -> SERVER: 
+
+[09-Dec-2025 07:53:01 UTC] [phpmailer] level=1 msg=CLIENT -> SERVER: 
+
+[09-Dec-2025 07:53:01 UTC] [phpmailer] level=1 msg=CLIENT -> SERVER: --b1=_xQvrAiYl4C633xNquf0kWnmS69Wbr2ORT4mGBFKXMk--
+
+[09-Dec-2025 07:53:01 UTC] [phpmailer] level=1 msg=CLIENT -> SERVER: 
+
+[09-Dec-2025 07:53:01 UTC] [phpmailer] level=1 msg=CLIENT -> SERVER: .
+
+[09-Dec-2025 07:53:02 UTC] [phpmailer] level=2 msg=SERVER -> CLIENT: 250 2.0.0 OK  1765266783 98e67ed59e1d1-34a49a16e7esm1444586a91.15 - gsmtp
+
+[09-Dec-2025 07:53:02 UTC] [phpmailer] level=1 msg=CLIENT -> SERVER: QUIT
+
+[09-Dec-2025 07:53:02 UTC] [phpmailer] level=2 msg=SERVER -> CLIENT: 221 2.0.0 closing connection 98e67ed59e1d1-34a49a16e7esm1444586a91.15 - gsmtp
+
+[09-Dec-2025 07:53:02 UTC] [email_debug] PHPMailer success via smtp.gmail.com:587 (tls) to production.solusibisnisdigital@gmail.com
